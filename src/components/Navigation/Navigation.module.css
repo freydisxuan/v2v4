@@ -1,4 +1,11 @@
 
 .nav {
   background-color: pink;
+  padding: 1rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

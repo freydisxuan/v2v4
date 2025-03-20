@@ -40,9 +40,9 @@ export default function Categories({ title }: Props) {
   return (
     <div className={styles.cats}>
       <h2>{title}</h2>
-
-      {uiState === 'loading' && <p>Sæki flokka</p>}
+      
       {uiState === 'error' && <p>Villa við að sækja flokka</p>}
+      {uiState === 'loading' && <p>Sæki flokka</p>}
       {uiState === 'data' && (
         <ul>
           {categories?.data.map((category, index) => (

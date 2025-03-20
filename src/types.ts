@@ -1,4 +1,4 @@
-export type UiState = 'initial' | 'loading' | 'error' | 'data' | 'empty';
+export type UiState = "initial" | "loading" | "error" | "data" | "empty";
 
 export type Category = {
   id: string;
